@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Food for Thoughts</title>
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <h1>Food for Thoughts</h1>
+        <p id="tagline">Good Stuff Only, 100% Junk-Free, bio, eco, reserva</p>
+      </header>
+      <main>
+        <div class="wrapper">
+          <!-- illustration -->
+          <div id="illustration"></div>
+
+          <!-- quote & author  -->
+          <div id="wrapper-quote">
+            <q id="quote">Las mejores cosas no son cosas.</q>
+            <p id="title-author">
+              Carpe Diem<cite id="title"> by Gabylonia</cite>
+            </p>
+          </div>
+
+          <!-- alternative -->
+          <div id="wrapper-quote-alternative">
+            <button id="btn-alternative-random">Another one, please.</button>
+            <button id="btn-alternative-wish">I have a special wish.</button>
+
+            <form action="">
+              <label for="user-thoughts">What's on your mind?</label>
+              <textarea
+                name="user-thoughts"
+                id="user-thoughts"
+                cols="80"
+                rows="7"
+              ></textarea>
+              <p id="char-counter"></p>
+            </form>
+          </div>
+        </div>
+      </main>
+
+      <footer></footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
